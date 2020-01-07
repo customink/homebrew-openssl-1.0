@@ -13,5 +13,5 @@ Since this is now a tap, you'll need to update your paths manually.
 This is for example what I use to compile the `mysql2` gem in old projectS:
 
 ```
-bundle config build.mysql2 ""--with-ldflags=-L$(brew --prefix "openssl@1.0")/lib""
+bundle config build.mysql2 "--with-ldflags=-L$(brew --prefix "openssl@1.0")/lib"
 ```
