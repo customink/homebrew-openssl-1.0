@@ -4,7 +4,7 @@ Tap to keep supporting the openSSL 1.0 for legacy projects
 # Installation
 
 ```
-brew tap coding-bunny/openssl-1.0
+brew tap customink/openssl-1.0
 brew install "openssl@1.0"
 ```
 
